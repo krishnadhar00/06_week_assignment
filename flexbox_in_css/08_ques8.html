@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-color: #292727;
+            background-size: cover;
+        }
+        .sub-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+        img{
+            position: absolute;
+            border-radius: 50%;
+            border: 5px solid white;
+            /* overflow: hidden; */
+            object-fit: fill;
+        }
+        .image1{
+            z-index: 4;
+            left: 30%;
+        }
+        .image2{
+            z-index: 3;
+            left: 42%;
+        }
+        .image3{
+            z-index: 2;
+            left: 53%;
+        }
+        .image4{
+            z-index: 1;
+            left: 65%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <img src="./avatar/IMG_6890.jpg" alt="" height="200px" width="200px" class="image1">
+            <img src="./avatar/IMG_6796.jpg" alt="" height="200px" width="200px" class="image2">
+            <img src="./avatar/IMG_6797.jpg" alt="" height="200px" width="200px" class="image3">
+            <img src="./avatar/IMG_6893-1.jpg" alt="" height="200px" width="200px" class="image4">
+        </div>
+    </div>
+</body>
+</html>

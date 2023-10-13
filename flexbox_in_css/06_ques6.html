@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google search bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-color: #292727;
+        }
+        .sub-container{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .head{
+            color: white;
+            font-size: 60px;
+            padding-bottom: 25px;
+        }
+        .search-bar{
+            width: 400px;
+            height: 40px;
+            border: 1px solid #292727;
+            border-radius: 5px;
+            background-color: #292727;
+            outline: none;
+            color: white;
+            padding: 10px;
+        }
+        .fa-search {
+            color: #6b6565;
+            cursor: pointer;
+            padding-right: 5px;
+            font-size: 16px;
+        }
+        .second
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #6b6565;
+            border-radius: 25px;
+            background-color: #292727;
+            overflow: hidden;
+            padding-right: 15px;
+            padding-left: 10px;
+            width: 500px;
+            padding-top: 0px;
+            /* height: 30px; */
+            /* overflow: hidden; */
+        }
+        img{
+            padding-right: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <div class="first">
+                <h1 class="head">Google</h1>
+            </div>
+            <div class="second">
+                <i class="fa fa-search icon"></i>
+                <input type="search" name="text" id="" class="search-bar">
+                <img src="./assets/micIcon.png" alt="image of microphone" height="25px" width="20px">
+                <img src="./assets/googleLens.png" alt="image of google lens" height="25px" width="20px">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
